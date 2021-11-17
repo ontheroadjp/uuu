@@ -1,3 +1,4 @@
+echo "[git] pre-push..."
 while read local_ref local_sha1 remote_ref remote_sha1
 do
   MESSAGES=$(git log --oneline origin/${remote_ref##refs/heads/}..HEAD | awk '{print $2}')
