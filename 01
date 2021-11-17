@@ -130,11 +130,11 @@ function _analyse_args_and_options() {
 }
 
 function _set_static_var() {
-    :
+    return 0
 }
 
 function _verify_static_var() {
-    :
+    return 0
 }
 
 # -------------------------------------------------------------
